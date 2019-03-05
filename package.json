@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "babel-plugin-istanbul": "^5.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "global": "^4.3.2",
+    "json5": "^2.1.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html -p 3000",
+    "build": "parcel build index.html -p 3000"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
